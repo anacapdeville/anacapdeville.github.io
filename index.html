@@ -5,31 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            background-color: rgb(178, 174, 193);
+        }
         p{
             font-size: 20px;
-            width: 70%;
+            width: 90%;
+        }
+        #Descricao{
+            font-family: sans-serif;
         }
         li{
             font-size: 20px;
         }
+        #nome{
+            font-family: sans-serif;
+        }
+        .list{
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
-    <h1>Ana Flávia Capdeville Ramos dos Santos</h1>
-    <img src="https://github.com/anacapdeville/anacapdeville.github.io/blob/master/img/11010531_843716882367599_7061105223662171810_n.jpg?raw=true" alt="Foto do rosto de Ana Flávia Capdeville Ramos dos Santos" width="400">
-    <p>Me chamo <em>Ana Flávia</em>, sou brasileira, tenho 31 anos, nascida em Belo Horizonte e continuo morando na capital mineira. Sou formada em Química pela UFMG e em Engenharia Metalúrgica pela PUC Minas. Atualmente resolvi dar uma guinada na minha carreira, e, para poder solucionar problemas de forma criativa e usando raciocínio lógico resolvi estudar <strong>Desenvolvimento de Software</strong> na Trybe.
+    <h1 id="nome">Ana Flávia Capdeville Ramos dos Santos</h1>
+    <img id="foto" src="https://github.com/anacapdeville/anacapdeville.github.io/blob/master/img/11010531_843716882367599_7061105223662171810_n.jpg?raw=true" alt="Foto do rosto de Ana Flávia Capdeville Ramos dos Santos" width="400">
+    <p id="Descricao">Me chamo Ana Flávia, sou brasileira, tenho 31 anos, nascida em <em>Belo Horizonte</em> e continuo morando na capital mineira. Sou formada em Química pela UFMG e em Engenharia Metalúrgica pela PUC Minas. Atualmente resolvi dar uma guinada na minha carreira, e, para poder solucionar problemas de forma criativa e usando raciocínio lógico resolvi estudar <strong>Desenvolvimento de Software</strong> na Trybe.
         <br><br>
         Abaixo estão listadas algumas habilidades que possuo:</p>
         <ul>
-            <li>Empatia</li>
-            <li>Pensamento crítico</li>
-            <li>Bom raciocínio lógico</li>
-            <li><strong>Flexibilidade</strong></li>
-            <li>Auto-motivação</li>
-            <li>Inglês avançado</li>
+            <li id class="list">Empatia</li>
+            <li id class="list">Pensamento crítico</li>
+            <li id class="list">Bom raciocínio lógico</li>
+            <li id class="list"><strong>Flexibilidade</strong></li>
+            <li id class="list">Auto-motivação</li>
+            <li id class="list">Inglês avançado</li>
         </ul>
        
-        <br>
+    
         <p>Minhas redes sociais:<br>
         <a target="_blank" href="https://www.linkedin.com/in/anacapdeville/">Linkedin</a>
         <br>
@@ -37,5 +49,7 @@
         <br>
         <a target="_blank" href="https://github.com/anacapdeville">GitHub</a>
     </p>
+    <a href="#foto">Foto</a>
+
 </body>
 </html>
