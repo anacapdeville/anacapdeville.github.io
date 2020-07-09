@@ -3,53 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ana Flávia Capdeville</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Inconsolata:wght@600&display=swap" rel="stylesheet" media="all">
     <style>
-        *{
+        body{
             background-color: rgb(178, 174, 193);
         }
         p{
             font-size: 20px;
-            width: 90%;
+            max-width: 90%;
+            font-family: "Barlow", sans-serif;
         }
-        #Descricao{
-            font-family: sans-serif;
-        }
-        li{
-            font-size: 20px;
-        }
-        #nome{
-            font-family: sans-serif;
-        }
+
         .list{
             font-size: 18px;
+            font-family: "Barlow", sans-serif;
+        }
+        a{
+            font-size: 20px;
+            font-family: "Barlow", sans-serif;
+        }
+        .foto{
+            float: left;
+            margin-right: 15px;
+            padding: 10px;
+            background-color: rgb(222, 220, 228);
+        }
+        .habilidades{
+            clear: both;
+            font-family: ;
+        }
+        .nome{
+            text-align: center;
+            margin-bottom: 10px;
+            background-color: rgb(76, 71, 92);
+            color: rgb(233, 232, 237);
+            font-family: "Inconsolata", sans-serif;
+        }
+        .descricao{
+            margin-left: 3px;
+            background-color: rgb(244, 243, 246);
+        }
+        .links-internos{
+            margin-bottom: 35px;
+            list-style-type: square;
+        }
+        .titulos{
+            background-color: rgb(76, 71, 92);
+            color: rgb(233, 232, 237);
+            font-family: "Inconsolata", sans-serif;
         }
     </style>
 </head>
 <body>
-    <h1 id="nome">Ana Flávia Capdeville Ramos dos Santos</h1>
-    <img id="foto" src="https://github.com/anacapdeville/anacapdeville.github.io/blob/master/img/11010531_843716882367599_7061105223662171810_n.jpg?raw=true" alt="Foto do rosto de Ana Flávia Capdeville Ramos dos Santos" width="400">
-    <p id="Descricao">Me chamo Ana Flávia, sou brasileira, tenho 31 anos, nascida em <em>Belo Horizonte</em> e continuo morando na capital mineira. Sou formada em Química pela UFMG e em Engenharia Metalúrgica pela PUC Minas. Atualmente resolvi dar uma guinada na minha carreira, e, para poder solucionar problemas de forma criativa e usando raciocínio lógico resolvi estudar <strong>Desenvolvimento de Software</strong> na Trybe.
-        <br><br>
-        Abaixo estão listadas algumas habilidades que possuo:</p>
+    <h1 class="nome">Ana Flávia Capdeville Ramos dos Santos</h1>
+    <div class="links-internos"><ul>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#redes">Redes sociais</a></li>
+    </ul>
+    </div>
+    <img class="foto" id="fotografia" src="https://github.com/anacapdeville/anacapdeville.github.io/blob/master/img/11010531_843716882367599_7061105223662171810_n.jpg?raw=true" alt="Foto do rosto de Ana Flávia Capdeville Ramos dos Santos" width="400">
+    <div class="Descricao" id="sobre"><h2 class="titulos">Sobre mim</h2>
+    <p>Me chamo Ana Flávia, sou brasileira, tenho 31 anos, nascida em <em>Belo Horizonte</em> e continuo morando na capital mineira. Sou formada em Química pela UFMG e em Engenharia Metalúrgica pela PUC Minas. Atualmente resolvi dar uma guinada na minha carreira, e, para poder solucionar problemas de forma criativa e usando raciocínio lógico resolvi estudar <strong>Desenvolvimento de Software</strong> na Trybe.</p>
+    </div>
+        <div class="habilidades"></div><h2 id="habilidades" class="titulos">Habilidades</h2>
+        <p>Abaixo estão listadas algumas habilidades que possuo:</p>
         <ul>
-            <li id class="list">Empatia</li>
-            <li id class="list">Pensamento crítico</li>
-            <li id class="list">Bom raciocínio lógico</li>
-            <li id class="list"><strong>Flexibilidade</strong></li>
-            <li id class="list">Auto-motivação</li>
-            <li id class="list">Inglês avançado</li>
+            <li class="list">Empatia</li>
+            <li class="list">Pensamento crítico</li>
+            <li class="list">Bom raciocínio lógico</li>
+            <li class="list">Flexibilidade</li>
+            <li class="list">Auto-motivação</li>
+            <li class="list">Inglês avançado</li>
         </ul>
-       
+        </div>
     
-        <p>Minhas redes sociais:<br>
+        <h2 id="redes" class="titulos">Redes sociais</h2>
         <a target="_blank" href="https://www.linkedin.com/in/anacapdeville/">Linkedin</a>
         <br>
         <a target="_blank" href="https://www.instagram.com/ana_capdeville/">Instagram</a>
         <br>
         <a target="_blank" href="https://github.com/anacapdeville">GitHub</a>
     </p>
-    <a href="#foto">Foto</a>
+    <a href="#fotografia">Foto</a>
+   
 
 </body>
 </html>
